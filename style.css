@@ -1,0 +1,41 @@
+.newsImg {
+  max-width: 250px;
+}
+.imgHolder {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.imgHolder a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+header ul {
+  display: flex;
+  height: 20vh;
+  justify-content: space-around;
+  align-items: center;
+  background: #f4f4f4;
+  font-family: sans-serif;
+}
+header ul li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+header ul li:hover {
+  color: red;
+}
+header ul li img {
+  width: 80px;
+  height: 80px;
+}
+.active {
+  background: red;
+  padding: 10px 15px;
+  color: #fff;
+}
+.active:hover {
+  color: #000;
+}
